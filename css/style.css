@@ -27,10 +27,9 @@
 
 -------------------------------------------------------------------*/
 
-/*----------------------------------------*/
-
-/* Template default CSS
-/*----------------------------------------*/
+/*---------------------
+  Template default CSS
+-----------------------*/
 
 html,
 body {
@@ -325,11 +324,12 @@ ol {
 
 .header-section {
   position: absolute;
+  background: black;
   left: 0;
   top: 0;
   width: 100%;
   padding: 0 15px;
-  padding-top: 55px;
+  /* padding-top: 55px; */
   z-index: 99;
 }
 
@@ -339,6 +339,10 @@ ol {
 
 .nav-menu {
   text-align: center;
+}
+
+.logo-img{
+  height: 70px;
 }
 
 .nav-menu ul li {
@@ -429,12 +433,12 @@ ol {
   width: 100%;
   background: #f36100;
   content: "";
-  -webkit-transform: rotate(-20deg);
+  /* -webkit-transform: rotate(-20deg);
   -ms-transform: rotate(-20deg);
-  transform: rotate(-20deg);
+  transform: rotate(-20deg); */
   opacity: 0;
-  -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
+  /* -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s; */
   transition: all 0.3s;
 }
 
